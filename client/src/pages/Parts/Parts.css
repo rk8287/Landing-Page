@@ -1,0 +1,73 @@
+/* Parts Section Styles */
+.part-app {
+  text-align: center;
+  padding: 20px;
+  margin-top: 5rem;
+  opacity: 0;
+  animation: fadeInUp 1s 0.5s forwards; /* Animation for the entire part section */
+}
+
+.part-header {
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+
+  opacity: 0;
+  animation: fadeInUp 1s 1s forwards; /* Animation for the header */
+}
+
+.parts-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  opacity: 0;
+  animation: fadeInUp 1s 1.5s forwards; /* Animation for the parts section */
+}
+
+.part {
+  width: 22%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  animation: fadeInUp 1s 2s forwards; /* Animation for each part */
+}
+
+.part img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.part h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.part p {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .part {
+    width: 100%;
+  }
+}
+
+/* Scroll Animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

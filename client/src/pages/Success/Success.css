@@ -1,0 +1,115 @@
+/* General page styles */
+.success-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .success-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .tick-logo {
+    display: inline-block;
+    background-color: #e6f7e6;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 20px;
+    animation: scaleUp 1s ease-in-out;
+  }
+  
+  .success-message h2 {
+    font-size: 24px;
+    color: #28a745;
+    margin-bottom: 20px;
+    animation: fadeInUp 1.2s ease-in-out;
+  }
+  
+  .success-message p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .additional-info {
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes scaleUp {
+    0% {
+      transform: scale(0.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .success-container {
+      padding: 30px;
+    }
+  
+    .tick-logo {
+      padding: 15px;
+    }
+  
+    .success-message h2 {
+      font-size: 20px;
+    }
+  
+    .success-message p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .success-container {
+      padding: 20px;
+    }
+  
+    .tick-logo {
+      padding: 10px;
+    }
+  
+    .success-message h2 {
+      font-size: 18px;
+    }
+  
+    .success-message p {
+      font-size: 12px;
+    }
+  }
+  

@@ -1,0 +1,127 @@
+/* General Styling */
+.main-header-section {
+  position: sticky; /* Makes the header sticky */
+  top: 0; /* Sticks to the top */
+  z-index: 1000; /* Ensures it stays above other content */
+  background-color: white; /* Background color for the header */
+  padding: 0.5rem 3rem; /* Reduced padding for smaller header */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for depth */
+  border-bottom: 4px solid #467ff7; /* Blue bottom border matching theme */
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.imgg {
+  width: 80px; /* Reduced logo width */
+  height: 80px; /* Reduced logo height */
+}
+
+.center-link {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Reduced gap between links */
+}
+
+.center-link > .link {
+  text-decoration: none;
+  color: #324a6d;
+  font-size: 18px; /* Reduced font size for links */
+  transition: color 0.3s ease-in-out; /* Smooth color transition for hover effect */
+}
+
+.center-link > .link:hover {
+  color: #467ff7; /* Change link color to blue on hover */
+}
+
+.center-link > .active-link {
+  color: #467ff7; /* Active link color */
+  border-bottom: 2px solid #467ff7; /* Blue underline for active link */
+}
+
+.call-btn {
+  padding: 15px 30px; /* Reduced button padding */
+  border-radius: 30px;
+  border: none;
+  background-color: #467ff7;
+  color: white;
+  font-size: 14px; /* Reduced font size for the button */
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out; /* Add hover effect */
+}
+
+.call-btn:hover {
+  background-color: #356cc9; /* Darker blue for hover */
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Hamburger icon styles */
+.hamburger-icon {
+  display: none;
+  flex-direction: column;
+  gap: 4px; /* Slightly reduced gap */
+  cursor: pointer;
+}
+
+.bar {
+  background-color: #467ff7;
+  height: 3px; /* Reduced bar height */
+  width: 25px; /* Reduced bar width */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .main-header-section {
+    padding: 0.5rem 1.5rem; /* Further reduced padding for mobile */
+  }
+
+  .header-section {
+    justify-content: space-between;
+  }
+
+  .center-link {
+    display: none;
+    flex-direction: column;
+    gap: 8px; /* Slightly reduced gap for mobile */
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .center-link.open {
+    display: flex;
+  }
+
+  .center-link > .link {
+    font-size: 14px; /* Smaller font size for mobile links */
+  }
+
+  .call-btn {
+    width: 100%;
+    padding: 8px 16px; /* Reduced button padding for mobile */
+  }
+
+  .hamburger-icon {
+    display: flex;
+  }
+
+  .imgg {
+    width: 60px; /* Smaller logo for mobile */
+    height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .imgg {
+    width: 50px; /* Further reduced logo size for smaller screens */
+    height: 50px;
+  }
+
+  .center-link > .link {
+    font-size: 12px; /* Smaller font size for very small screens */
+  }
+}

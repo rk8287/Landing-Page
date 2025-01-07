@@ -1,0 +1,135 @@
+/* Service Section Styles */
+.service {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 40px;
+  align-items: stretch; /* Ensure both left and right sections stretch to equal height */
+  margin-top: 8rem;
+  opacity: 0;
+  animation: fadeInUp 1s 0.5s forwards; /* Animation for the entire service section */
+}
+
+.left,
+.right {
+  flex: 1; /* Both left and right take equal space */
+  display: flex;
+  flex-direction: column;
+}
+
+.left .image-container {
+  display: grid; /* Grid layout for 4 images */
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 10px; /* Space between images */
+  flex-grow: 1; /* Allow the image container to take remaining space */
+  opacity: 0;
+  animation: fadeInUp 1s 1s forwards; /* Animation for image container */
+}
+
+.left img {
+  width: 100%;
+  height: 200px; /* Fixed height to ensure images have the same height */
+  object-fit: cover; /* Ensure images cover the area without distortion */
+  border-radius: 8px; /* Optional: rounded corners */
+  opacity: 0;
+  animation: fadeInUp 1s 1.5s forwards; /* Animation for each image */
+}
+
+.service-header {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1; /* Allow header to take remaining space */
+  opacity: 0;
+  animation: fadeInUp 1s 2s forwards; /* Animation for header */
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #1a1a1a;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #1a1a1a;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 1em;
+  color: #4a4a4a;
+  margin: 20px 0;
+}
+
+.call-button {
+  background-color: #467ff7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.call-button:hover {
+  background-color: #306df0;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .service {
+    flex-direction: column; /* Stack left and right on smaller screens */
+    align-items: center;
+  }
+
+  .left .image-container {
+    grid-template-columns: repeat(1, 1fr); /* Single column for mobile */
+  }
+
+  .service-header {
+    padding: 10px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  .call-button {
+    padding: 8px 16px;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  .left .image-container {
+    grid-template-columns: 1fr; /* Stack images vertically on very small screens */
+  }
+
+  .left img {
+    height: 150px; /* Adjust image size for small screens */
+  }
+}
+
+/* Scroll Animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
