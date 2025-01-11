@@ -1,50 +1,64 @@
 footer {
-    margin-top: 20px;
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  font-size: 1em;
+  color: #777;
+  margin-top: 30px;
+}
+
+.footer-content {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 1.2em;
+  background-color: #467ff7;
+  color: white!important;
+  padding: 12px 0;
+  margin-bottom: 15px;
+}
+
+.footer-year {
+  font-size: 1em;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.footer-links {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #467ff7;
+  margin: 0 10px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: #3c6e9c;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  footer {
     font-size: 0.9em;
-    color: #777;
-    
   }
-  
-  footer p {
-    padding: 1rem 0;
+
+  .footer-links {
+    font-size: 0.9em;
   }
-  
-  /* Media Queries for responsiveness */
-  @media (max-width: 768px) {
-    .testimonials {
-      flex-direction: column; /* Stack testimonials vertically on smaller screens */
-      align-items: center; /* Center items horizontally */
-    }
-  
-    .testimonial {
-      width: 80%; /* Ensure the testimonials are not too wide on small screens */
-      margin-bottom: 20px; /* Add space between stacked testimonials */
-    }
-  
-    .testimonials-section h1 {
-      font-size: 1.8em; /* Reduce font size on smaller screens */
-    }
-  
-    .testimonials-section h2 {
-      font-size: 1.3em; /* Reduce font size on smaller screens */
-    }
-  
-    footer {
-      font-size: 0.8em; /* Smaller font size for footer */
-    }
+}
+
+@media (max-width: 480px) {
+  footer {
+    font-size: 0.8em;
   }
-  
-  @media (max-width: 480px) {
-    .testimonials-section h1 {
-      font-size: 1.5em; /* Further reduce the font size */
-    }
-  
-    .testimonials-section h2 {
-      font-size: 1.2em; /* Further reduce the font size */
-    }
-  
-    footer {
-      font-size: 0.7em; /* Even smaller footer font on extra small screens */
-    }
+
+  .footer-links {
+    font-size: 0.8em;
   }
-  
+}

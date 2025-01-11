@@ -20,12 +20,12 @@ const Service = () => {
 
       <div className="right">
         <header className="service-header">
-          <h1>Why Timeless Car Parts</h1>
-          <h2>Where Quality Meets Affordability in OEM, Aftermarket, and Reused Auto Parts</h2>
+          <h1>Why Octagon Autoparts Car Parts</h1>
+          <h2 style={{color:"#007bff"}}>Where Quality Meets Affordability in OEM, Aftermarket, and Reused Auto Parts</h2>
           <p>
-            Welcome to Timeless Car Parts, your trusted partner in the USA for all things auto. We know how important it is to keep your car running smoothly, so we offer a wide variety of OEM auto parts, aftermarket components, and even reused auto parts for those on a budget. Whether you’re fixing up your daily ride or restoring a classic, we’ve got what you need at prices you’ll love.
+            Welcome to Octagon Autoparts Car Parts, your trusted partner in the USA for all things auto. We know how important it is to keep your car running smoothly, so we offer a wide variety of OEM auto parts, aftermarket components, and even reused auto parts for those on a budget. Whether you’re fixing up your daily ride or restoring a classic, we’ve got what you need at prices you’ll love.
           </p>
-          <button className="call-button">Call: 307 243 0044</button>
+          <button className="call-button">Call: ( 844 ) 417 7506</button>
         </header>
       </div>
     </div>

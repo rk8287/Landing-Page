@@ -8,7 +8,7 @@ const Testnomial = () => {
   return (
     <div className="testnom">
       <div className="test-header">
-        <h1>Not Sure What You Need? We’re Here to Help!</h1>
+        <h1 style={{color:"#007bff"}}>Not Sure What You Need? We’re Here to Help!</h1>
       </div>
 
       <div className="test-description">

@@ -7,7 +7,7 @@ const Parts = () => {
         <div className="part-app">
           <header className="part-header">
             <h1>A Wide Range of AutoParts</h1>
-            <h2>That Fits Every Need and Budget</h2>
+            <h2 style={{color:"#007bff"}}>That Fits Every Need and Budget</h2>
           </header>
           <div className="parts-section">
             <div className="part">

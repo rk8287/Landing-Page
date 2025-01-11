@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom'; // Import NavLink
 import './Header.css';
 
-import logo from '../../assets/Black-and-Red-Professional-Racing-Logo-19.png';
+import logo from '../../assets/weblogo.jpeg';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -54,8 +54,8 @@ const Header = () => {
           </NavLink>
 
           {/* Shared Call Button */}
-          <button className="call-btn" onClick={() => window.location.href = 'tel:3072430044'}>
-            Call: 307 243 0044
+          <button className="call-btn" onClick={() => window.location.href = 'tel:8444177506'}>
+            Call: ( 844 ) 417 7506
           </button>
         </div>
       </div>

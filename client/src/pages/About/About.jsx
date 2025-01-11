@@ -17,7 +17,7 @@ const About = () => {
         <header className="About-header" data-aos="fade-up">
           <h1>Committed to Quality, Affordability, and Customer Satisfaction in the USA</h1>
           <p>
-            At Timeless Car parts, we believe in making high-quality vehicle parts accessible to everyone in the USA...
+            At Octagon Autoparts Car parts, we believe in making high-quality vehicle parts accessible to everyone in the USA...
           </p>
         </header>
 
@@ -53,7 +53,7 @@ const About = () => {
           <p>
             We’re committed to sustainability and reducing waste...
           </p>
-          <button className="call-button">Call: 307 243 0044</button>
+          <button className="call-button">Call: (844) 417 7506</button>
         </div>
 
         <div className="App-choose">
@@ -63,7 +63,7 @@ const About = () => {
               <div className="column" data-aos="fade-up">
                 <h2>A Wide Range of Parts</h2>
                 <p>We offer a huge selection of OEM, aftermarket, and reused auto parts...</p>
-                <button className="call-button">Call: 307 243 0044</button>
+                <button className="call-button">Call: (844) 417 7506</button>
               </div>
               <div className="column" data-aos="fade-up">
                 <h2>Quality You Can Trust</h2>
@@ -79,9 +79,9 @@ const About = () => {
 
         <div className="Appss" data-aos="zoom-out">
           <header className="bannerr">
-            <h1>Join the Timeless Car parts Family</h1>
+            <h1>Join the Octagon Autoparts Car parts Family</h1>
             <p>We’re proud to be a part of your automotive journey...</p>
-            <button className="call-button">Call: 307 243 0044</button>
+            <button className="call-button">Call: (844) 417 7506</button>
           </header>
         </div>
         <Footer />

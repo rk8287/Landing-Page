@@ -53,9 +53,9 @@ const Contact = () => {
         {/* Contact Information Section */}
         <div className="contact-info">
           <h2>Address</h2>
-          <p>2633 Bledsoe Ln, Las Vegas, NV 89156, United States</p>
+          <p>Ogtagon Group LLC 33 Academy St, Poughkeepsie, NY 12601</p>
           <h2>Phone</h2>
-          <p>307 243 0044</p>
+          <p>(844) 417 7506</p>
           <h2>Email</h2>
           <p>support@nexoautoparts.com</p>
         </div>
