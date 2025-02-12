@@ -62,7 +62,7 @@ const About = () => {
             <div className="columns">
               <div className="column" data-aos="fade-up">
                 <h2>A Wide Range of Parts</h2>
-                <p>We offer a huge selection of OEM, aftermarket, and reused auto parts...</p>
+                <p>We offer a huge selection of Octagon Autoparts, aftermarket, and reused auto parts...</p>
                 <button className="call-button">Call: (844) 417 7506</button>
               </div>
               <div className="column" data-aos="fade-up">

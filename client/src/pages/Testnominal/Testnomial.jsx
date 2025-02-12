@@ -15,7 +15,7 @@ const Testnomial = () => {
         <p>
           Don’t worry if you're not an auto expert. Our knowledgeable team in the USA is here to guide you through your options,
           helping you find the right part for your specific vehicle.
-          From OEM autoparts to discount auto parts, we ensure that you get the perfect fit.
+          From Octagon Autoparts to discount auto parts, we ensure that you get the perfect fit.
         </p>
       </div>
 

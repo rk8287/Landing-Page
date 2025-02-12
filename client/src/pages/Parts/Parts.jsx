@@ -12,8 +12,8 @@ const Parts = () => {
           <div className="parts-section">
             <div className="part">
               <img src="https://nexoautoparts.com/wp-content/uploads/2024/10/9.png" alt="OEM Autoparts" />
-              <h3>OEM Autoparts</h3>
-              <p>If you want your vehicle to run like it just rolled off the factory floor, our OEM replacement parts are exactly what you need. These parts meet the original specs for a perfect fit.</p>
+              <h3>Octagon Autoparts</h3>
+              <p>If you want your vehicle to run like it just rolled off the factory floor, our Octagon Autoparts replacement parts are exactly what you need. These parts meet the original specs for a perfect fit.</p>
             </div>
             <div className="part">
               <img src="https://nexoautoparts.com/wp-content/uploads/2024/10/11.png" alt="Aftermarket Parts For Customization" />
@@ -28,7 +28,7 @@ const Parts = () => {
             <div className="part">
               <img src="https://nexoautoparts.com/wp-content/uploads/2024/10/12.png" alt="High Quality At Prices You’ll Love In The USA" />
               <h3>High Quality At Prices You’ll Love In The USA</h3>
-              <p>We get it—vehicle repairs can get pricey. That’s why we offer the best of both worlds: high-quality parts without breaking the bank. Our OEM autoparts and aftermarket components are sourced from trusted suppliers, and our reused parts are thoroughly inspected for quality.</p>
+              <p>We get it—vehicle repairs can get pricey. That’s why we offer the best of both worlds: high-quality parts without breaking the bank. Our Octagon Autoparts and aftermarket components are sourced from trusted suppliers, and our reused parts are thoroughly inspected for quality.</p>
             </div>
           </div>
         </div>
